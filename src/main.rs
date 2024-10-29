@@ -1,6 +1,7 @@
 use clap::Parser;
 
 mod commands;
+mod database;
 use commands::Commands;
 
 #[derive(Parser)]
